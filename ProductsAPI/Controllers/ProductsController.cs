@@ -16,7 +16,7 @@ namespace ProductsAPI.Controllers
             new Product { prodId = 2, prodName = "Speaker", prodCategory = "Electronics", prodPrice = 1800},
             new Product { prodId = 3, prodName = "Juice", prodCategory = "Groceries", prodPrice = 150},
             new Product { prodId = 4, prodName = "Butter", prodCategory = "Dairy Products", prodPrice = 370},
-            new Product { prodId = 5, prodName = "Milkr", prodCategory = "Dairy Products", prodPrice = 370}
+            new Product { prodId = 6, prodName = "Milkr", prodCategory = "Dairy Products", prodPrice = 370}
         };
         public IEnumerable<Product> GetAllProducts()
         {
